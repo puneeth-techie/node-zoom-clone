@@ -16,7 +16,7 @@ app.set("view engine", "ejs");
 //middlewares
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
-app.use(express.static("./public"));
+app.use(express.static("public"));
 
 if (process.env.NODE_ENV === "development") {
   app.use(morgan("dev"));

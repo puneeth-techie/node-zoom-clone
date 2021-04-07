@@ -1,5 +1,5 @@
 import express from "express";
-import { room, roomId } from "@controllers/zoomController.js";
+import { room, roomId } from "../controllers/zoomController.js";
 
 const router = express.Router();
 

@@ -1,4 +1,4 @@
-import app from "@startup/app.js";
+import app from "./startup/app.js";
 import http from "http";
 
 const server = http.createServer(app);

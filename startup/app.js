@@ -1,8 +1,8 @@
 import express from "express";
 import dotenv from "dotenv";
 import morgan from "morgan";
-import { notFound, errorHandler } from "@middlewares/errorHandler.js";
-import zoomRoute from "@routes/zoomRoute.js";
+import { notFound, errorHandler } from "../middlewares/errorHandler.js";
+import zoomRoute from "../routes/zoomRoute.js";
 
 //config env
 dotenv.config();

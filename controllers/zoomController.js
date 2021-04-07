@@ -1,6 +1,6 @@
 import { v4 as uuidv4 } from "uuid";
 
-// @route        GET /api/v1/zoom
+// @route        GET /
 // @desc         Opening zoom room using uuid.
 const room = (req, res, next) => {
   res.redirect(`/${uuidv4()}`);
